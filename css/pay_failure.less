@@ -1,0 +1,170 @@
+@import "_function";
+.header{
+  .w(750);
+  .h(86);
+  .b-g-c(#07771c);
+  position: relative;
+  a{
+    .c(#fff);
+    .dis-ib;
+    .h(86);
+    .f-s(60);
+    .l(20);
+    position: absolute;
+  }
+  h3{
+    .f-s(40);
+    .c(#fff);
+    .w(210);
+    .f-w-n;
+    .m-a;
+    .l-h(86);
+  }
+  .toggle_menu{
+    position: absolute;
+    .r(20);
+    .t(20);
+    .w(64);
+    .h(10);
+    content: "";
+    .b-g-c(#fff);
+    box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+  }
+}
+.middle{
+  width: 100%;
+  .t-a-c;
+  .p(90,0,70,0);
+  img{
+    .w(299);
+    .h(301);
+  }
+  h4{
+    .f-s(56);
+    .c(#ef0a0a);
+    .f-w-n;
+    .m-t(10);
+  }
+}
+.footer{
+  width: 100%;
+  h5{
+    .w(710);
+    .m-a;
+    .f-s(36);
+    .c(#333);
+    .f-w-n;
+    .l-h(76);
+    .b-b(2,dashed,#dedede);
+  }
+  .payment{
+    padding: 0 .4rem;
+    .m-t(40);
+    li{
+      margin: .4rem 0;
+      &:nth-child(even){
+        display: none;
+        span{
+          .c(#07771c);
+        }
+        i{
+          .b-g-c(#07771c);
+        }
+      }
+      label{
+        .f-s(28);
+        .c(#666);
+        .dis-b;
+        .o-f;
+        position: relative;
+        em{
+          .dis-ib;
+        }
+        span{
+          .m-l(14);
+        }
+        input{
+          .f-r;
+          opacity: 0;
+        }
+        i{
+          .dis-ib;
+          .w(52);
+          .h(52);
+          border-radius: 50%;
+          background-color: #bfbfbf;
+          position: absolute;
+          .r(0);
+          .t-a-c;
+          .l-h(52);
+          b{
+            font-style: normal;
+            .c(#fff);
+          }
+        }
+      }
+      &:first-child,&:nth-child(2){
+        label{
+          span,input{
+            .v-a(32);
+          }
+          em{
+            .w(112);
+            .h(84);
+          }
+          i{
+            .t(16);
+          }
+        }
+      }
+      &:nth-child(3),&:nth-child(4){
+        label{
+          span,input{
+            .v-a(44);
+          }
+          em{
+            .w(110);
+            .h(110);
+          }
+          i{
+            .t(30);
+          }
+        }
+
+      }
+      &:nth-child(5),&:nth-child(6){
+        label{
+          span,input{
+            .v-a(46);
+          }
+          em{
+            .w(113);
+            .h(113);
+          }
+          i{
+            .t(30);
+          }
+        }
+      }
+    }
+  }
+  div{
+    width: 100%;
+    .m-t(50);
+    .h(98);
+    display: flex;
+    justify-content: space-between;
+    .l-h(98);
+    .t-a-c;
+    button{
+      width: 50%;
+      height: 100%;
+      .b-g-c(#07771c);
+      .f-s(36);
+      .c(#fff);
+      &:first-child{
+        .b-g-c(#5eb584);
+      }
+    }
+  }
+}

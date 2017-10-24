@@ -1,0 +1,153 @@
+@import "_function";
+.header{
+  .w(750);
+  .h(86);
+  .b-g-c(#07771c);
+  position: relative;
+  a{
+    .c(#fff);
+    .dis-ib;
+    .h(86);
+    .f-s(60);
+    .l(20);
+    position: absolute;
+  }
+  h3{
+    .f-s(40);
+    .c(#fff);
+    .w(210);
+    .f-w-n;
+    .m-a;
+    .l-h(86);
+  }
+  .toggle_menu{
+    position: absolute;
+    .r(20);
+    .t(20);
+    .w(64);
+    .h(10);
+    content: "";
+    .b-g-c(#fff);
+    box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+  }
+}
+.middle{
+  .p-b(120);
+  .post_info{
+    .f-s(28);
+    .c(#333);
+    .t-i(16);
+    .l-h(50);
+    .b-b(1,solid,#07771c);
+  }
+  .order_info{
+    .f-s(24);
+    .c(#666);
+    .l-h(60);
+    .order_item{
+      .f-s(24);
+      .p-l(20);
+      .o-f;
+      .orderId_tag{
+        .f-l;
+        .orderId{
+          .c(#07771c);
+        }
+      }
+      .orderTime_tag{
+        .f-r;
+      }
+    }
+  }
+  .order_list{
+    .b-g-c(#f2f2f2);
+    .f-s-0;
+    .p-l(20);
+    li{
+      .p-t(30);
+      .o-f;
+      .pro_img{
+        .f-l;
+        a img{
+          .w(220);
+          .h(220);
+          .m-r(30);
+        }
+      }
+      .pro_details{
+        .f-l;
+        .w(470);
+        h3{
+          -webkit-transform: translateY(-.2rem);
+          -moz-transform: translateY(-.2rem);
+          -ms-transform: translateY(-.2rem);
+          -o-transform: translateY(-.2rem);
+          transform: translateY(-.2rem);
+          a{
+            .f-s(28);
+            .c(#111010);
+            vertical-align: top;
+            .l-h(46);
+            .f-w-n;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+        }
+        .weight_tag,.color_tag{
+          .f-s(24);
+          .c(#666);
+          .h(40);
+          .l-h(40);
+          span{
+            .m-l(8);
+          }
+        }
+        .purchase_info{
+          .o-f;
+          .c(#07771c);
+          .price_tag{
+            .f-s(24);
+            .f-l;
+            .price{
+              .f-s(40);
+            }
+          }
+        }
+        .count_tag{
+          .f-r;
+          .f-s(24);
+          .c(#333);
+          .m-r(30);
+          .count{
+            .m-l(18);
+          }
+        }
+      }
+    }
+  }
+}
+.footer{
+  position: fixed;
+  .b(0);
+  width: 100%;
+  .h(90);
+  .b-g-c(#f2f2f2);
+  display: flex;
+  justify-content: space-between;
+  .p-l(20);
+  .l-h(90);
+  .c(#333);
+  .total{
+    .c(#07771c);
+  }
+  button{
+    .b-g-c(#07771c);
+    .c(#fff);
+    .w(270);
+    height: 100%;
+    .f-s(40);
+    .t-a-c;
+  }
+}

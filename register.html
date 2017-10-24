@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="#"/><!--网页的关键字-->
+    <meta name="description" content="#"/><!--网页描述-->
+    <meta name="author" content="多迪"/><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>注册</title>
+    <base target="_self"><!--覆盖当前页-->
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/public.css" /><!--公共样式-->
+    <link rel="stylesheet" href="css/register.css" /><!--自身样式-->
+</head>
+<body>
+<div class="header">
+    <a href="javascript:;">&lt;</a>
+    <h3>注册账号</h3>
+    <a href="login.html">登录</a>
+</div>
+
+<div class="middle">
+    <form action="#">
+        <div class="wrap">
+            <label for="username">用&nbsp;&nbsp;户&nbsp;&nbsp;名</label><input type="text" name="username" id="username">
+            <p></p>
+        </div>
+        <div class="wrap">
+            <label for="psw">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</label><input type="text" name="psw" id="psw">
+            <p></p>
+        </div>
+        <div class="wrap">
+            <label for="confirm_psw">确认密码</label><input type="text" name="confirm_psw" id="confirm_psw">
+            <p></p>
+        </div>
+        <div class="wrap">
+            <label for="tel">手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机</label><input type="text" name="tel" id="tel">
+            <p></p>
+        </div>
+        <div class="validate_wrap">
+            <label for="validate">验&nbsp;&nbsp;证&nbsp;&nbsp;码</label><input type="text" name="validate" id="validate"><i>√</i><span></span>
+            <p></p>
+        </div>
+        <div class="subscribe">
+            <label><input type="checkbox"><i><b>√</b></i><span>我已阅读并同意<a href="###">《恒必达商城用户注册协议》</a></span></label>
+        </div>
+        <button>立即注册</button>
+    </form>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

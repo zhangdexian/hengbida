@@ -1,0 +1,171 @@
+.header {
+  width: 15rem;
+  height: 1.72rem;
+  background-color: #07771c;
+  position: relative;
+}
+.header a {
+  color: #ffffff;
+  display: inline-block;
+  height: 1.72rem;
+  font-size: 1.2rem;
+  left: 0.4rem;
+  position: absolute;
+}
+.header h3 {
+  font-size: 0.8rem;
+  color: #ffffff;
+  width: 4.2rem;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 1.72rem;
+}
+.header .toggle_menu {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.4rem;
+  width: 1.28rem;
+  height: 0.2rem;
+  content: "";
+  background-color: #ffffff;
+  box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+}
+.middle {
+  width: 100%;
+  text-align: center;
+  padding: 1.8rem 0rem 1.4rem 0rem;
+}
+.middle img {
+  width: 5.98rem;
+  height: 6.02rem;
+}
+.middle h4 {
+  font-size: 1.12rem;
+  color: #ef0a0a;
+  font-weight: normal;
+  margin-top: 0.2rem;
+}
+.footer {
+  width: 100%;
+}
+.footer h5 {
+  width: 14.2rem;
+  margin: 0 auto;
+  font-size: 0.72rem;
+  color: #333333;
+  font-weight: normal;
+  line-height: 1.52rem;
+  border-bottom: 0.04rem dashed #dedede;
+}
+.footer .payment {
+  padding: 0 .4rem;
+  margin-top: 0.8rem;
+}
+.footer .payment li {
+  margin: .4rem 0;
+}
+.footer .payment li:nth-child(even) {
+  display: none;
+}
+.footer .payment li:nth-child(even) span {
+  color: #07771c;
+}
+.footer .payment li:nth-child(even) i {
+  background-color: #07771c;
+}
+.footer .payment li label {
+  font-size: 0.56rem;
+  color: #666666;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.footer .payment li label em {
+  display: inline-block;
+}
+.footer .payment li label span {
+  margin-left: 0.28rem;
+}
+.footer .payment li label input {
+  float: right;
+  opacity: 0;
+}
+.footer .payment li label i {
+  display: inline-block;
+  width: 1.04rem;
+  height: 1.04rem;
+  border-radius: 50%;
+  background-color: #bfbfbf;
+  position: absolute;
+  right: 0rem;
+  text-align: center;
+  line-height: 1.04rem;
+}
+.footer .payment li label i b {
+  font-style: normal;
+  color: #ffffff;
+}
+.footer .payment li:first-child label span,
+.footer .payment li:nth-child(2) label span,
+.footer .payment li:first-child label input,
+.footer .payment li:nth-child(2) label input {
+  vertical-align: 0.64rem;
+}
+.footer .payment li:first-child label em,
+.footer .payment li:nth-child(2) label em {
+  width: 2.24rem;
+  height: 1.68rem;
+}
+.footer .payment li:first-child label i,
+.footer .payment li:nth-child(2) label i {
+  top: 0.32rem;
+}
+.footer .payment li:nth-child(3) label span,
+.footer .payment li:nth-child(4) label span,
+.footer .payment li:nth-child(3) label input,
+.footer .payment li:nth-child(4) label input {
+  vertical-align: 0.88rem;
+}
+.footer .payment li:nth-child(3) label em,
+.footer .payment li:nth-child(4) label em {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.footer .payment li:nth-child(3) label i,
+.footer .payment li:nth-child(4) label i {
+  top: 0.6rem;
+}
+.footer .payment li:nth-child(5) label span,
+.footer .payment li:nth-child(6) label span,
+.footer .payment li:nth-child(5) label input,
+.footer .payment li:nth-child(6) label input {
+  vertical-align: 0.92rem;
+}
+.footer .payment li:nth-child(5) label em,
+.footer .payment li:nth-child(6) label em {
+  width: 2.26rem;
+  height: 2.26rem;
+}
+.footer .payment li:nth-child(5) label i,
+.footer .payment li:nth-child(6) label i {
+  top: 0.6rem;
+}
+.footer div {
+  width: 100%;
+  margin-top: 1rem;
+  height: 1.96rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.96rem;
+  text-align: center;
+}
+.footer div button {
+  width: 50%;
+  height: 100%;
+  background-color: #07771c;
+  font-size: 0.72rem;
+  color: #ffffff;
+}
+.footer div button:first-child {
+  background-color: #5eb584;
+}

@@ -1,0 +1,178 @@
+.header {
+  width: 15rem;
+  height: 1.72rem;
+  background-color: #07771c;
+  position: relative;
+}
+.header a {
+  color: #ffffff;
+  display: inline-block;
+  height: 1.72rem;
+  font-size: 1.2rem;
+  left: 0.4rem;
+  position: absolute;
+}
+.header h3 {
+  font-size: 0.8rem;
+  color: #ffffff;
+  width: 4.2rem;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 1.72rem;
+}
+.header .toggle_menu {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.4rem;
+  width: 1.28rem;
+  height: 0.2rem;
+  content: "";
+  background-color: #ffffff;
+  box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+}
+.middle {
+  padding-bottom: 3rem;
+}
+.middle .sub_menu {
+  padding: 0.4rem 0.4rem 0rem 0.4rem;
+  border-bottom: 0.02rem solid #cdcdcd;
+  display: flex;
+  justify-content: space-between;
+}
+.middle .sub_menu li {
+  font-size: 0.52rem;
+  color: #333333;
+  line-height: 1.2rem;
+}
+.middle .sub_menu li.current {
+  color: #07771c;
+  border-bottom: 0.02rem solid #07771c;
+}
+.middle .order_list {
+  background-color: #f3f3f3;
+  padding: 0.6rem 0rem 0.2rem 0.4rem;
+}
+.middle .order_list li:not(:first-child) {
+  margin-top: 1.4rem;
+}
+.middle .order_list li .order_info {
+  font-size: 0.48rem;
+  padding-left: 0.4rem;
+  overflow: hidden;
+}
+.middle .order_list li .order_info .orderId_tag {
+  float: left;
+}
+.middle .order_list li .order_info .orderId_tag .orderId {
+  color: #07771c;
+}
+.middle .order_list li .order_info .orderTime_tag {
+  float: right;
+}
+.middle .order_list li .order_details {
+  padding-top: 0.6rem;
+  overflow: hidden;
+}
+.middle .order_list li .order_details .pro_img {
+  float: left;
+}
+.middle .order_list li .order_details .pro_img a img {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-right: 0.6rem;
+}
+.middle .order_list li .order_details .pro_details {
+  float: left;
+  width: 9.4rem;
+}
+.middle .order_list li .order_details .pro_details h3 {
+  -webkit-transform: translateY(-0.2rem);
+  -moz-transform: translateY(-0.2rem);
+  -ms-transform: translateY(-0.2rem);
+  -o-transform: translateY(-0.2rem);
+  transform: translateY(-0.2rem);
+}
+.middle .order_list li .order_details .pro_details h3 a {
+  font-size: 0.56rem;
+  color: #111010;
+  vertical-align: top;
+  line-height: 0.92rem;
+  font-weight: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.middle .order_list li .order_details .pro_details .weight_tag,
+.middle .order_list li .order_details .pro_details .color_tag {
+  font-size: 0.48rem;
+  color: #666666;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.middle .order_list li .order_details .pro_details .weight_tag span,
+.middle .order_list li .order_details .pro_details .color_tag span {
+  margin-left: 0.16rem;
+}
+.middle .order_list li .order_details .pro_details .purchase_info {
+  overflow: hidden;
+  color: #07771c;
+}
+.middle .order_list li .order_details .pro_details .purchase_info .price_tag {
+  font-size: 0.48rem;
+  float: left;
+  width: 4rem;
+}
+.middle .order_list li .order_details .pro_details .purchase_info .price_tag .price {
+  font-size: 0.8rem;
+}
+.middle .order_list li .order_details .pro_details .count_tag {
+  line-height: 1.04rem;
+  float: left;
+  font-size: 0.48rem;
+  color: #666666;
+  width: 2.2rem;
+}
+.middle .order_list li .order_details .pro_details .count_tag .count {
+  margin-left: 0.2rem;
+}
+.middle .order_list li .order_details .pro_details .status_tag {
+  line-height: 1.04rem;
+  float: left;
+  font-size: 0.48rem;
+  color: #666666;
+}
+.middle .order_list li .order_details .pro_details .status_tag .status {
+  color: #07771c;
+}
+.footer {
+  height: 2rem;
+  padding-bottom: 0.2rem;
+  position: fixed;
+  background-color: #f3f3f3;
+  bottom: 0rem;
+}
+.footer .navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.footer .navbar li {
+  width: 3.75rem;
+  padding: 0.2rem 0rem 0.2rem 0rem;
+}
+.footer .navbar li a img {
+  width: 1.04rem;
+  height: 1.04rem;
+}
+.footer .navbar li a h6 {
+  font-size: 0.48rem;
+  color: #666666;
+  font-weight: normal;
+}
+.footer .navbar li.current {
+  background-color: #07771c;
+}
+.footer .navbar li.current a h6 {
+  color: #ffffff;
+}

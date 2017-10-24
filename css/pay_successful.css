@@ -1,0 +1,122 @@
+.header {
+  width: 15rem;
+  height: 1.72rem;
+  background-color: #07771c;
+  position: relative;
+}
+.header a {
+  color: #ffffff;
+  display: inline-block;
+  height: 1.72rem;
+  font-size: 1.2rem;
+  left: 0.4rem;
+  position: absolute;
+}
+.header h3 {
+  font-size: 0.8rem;
+  color: #ffffff;
+  width: 4.2rem;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 1.72rem;
+}
+.header .toggle_menu {
+  position: absolute;
+  right: 0.4rem;
+  top: 0.4rem;
+  width: 1.28rem;
+  height: 0.2rem;
+  content: "";
+  background-color: #ffffff;
+  box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+}
+.middle {
+  width: 100%;
+}
+.middle .pay_success {
+  text-align: center;
+  padding: 1.8rem 0rem 0.6rem 0rem;
+}
+.middle .pay_success img {
+  width: 5.98rem;
+  height: 6.02rem;
+}
+.middle .pay_success h4 {
+  font-size: 1.12rem;
+  color: #28c54d;
+  font-weight: normal;
+  margin-top: 0.2rem;
+}
+.middle .relative_goods {
+  padding: 0rem 0.4rem 0.8rem 0.4rem;
+}
+.middle .relative_goods h5 {
+  font-size: 0.72rem;
+  color: #333333;
+  font-weight: normal;
+  line-height: 1.36rem;
+  border-bottom: 0.04rem dashed #dedede;
+  margin-bottom: 0.72rem;
+}
+.middle .relative_goods h5 img {
+  width: 0.66rem;
+  height: 0.56rem;
+}
+.middle .relative_goods .pro_list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.middle .relative_goods .pro_list li > a {
+  border: 0.02rem solid #dedede;
+  display: block;
+  width: 6.8rem;
+  height: 6.76rem;
+}
+.middle .relative_goods .pro_list li > a img {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-top: 1rem;
+}
+.middle .relative_goods .pro_list li .price_tag {
+  text-align: left;
+  font-size: 0.32rem;
+  color: #07771c;
+}
+.middle .relative_goods .pro_list li .price_tag span {
+  font-size: 0.52rem;
+}
+.middle .relative_goods .pro_list li h6 {
+  text-align: left;
+}
+.middle .relative_goods .pro_list li h6 a {
+  font-size: 0.48rem;
+  color: #333333;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.footer {
+  width: 100%;
+}
+.footer div {
+  width: 100%;
+  height: 1.96rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.96rem;
+  text-align: center;
+}
+.footer div button {
+  width: 50%;
+  height: 100%;
+  background-color: #07771c;
+  font-size: 0.72rem;
+  color: #ffffff;
+}
+.footer div button:first-child {
+  background-color: #5eb584;
+}

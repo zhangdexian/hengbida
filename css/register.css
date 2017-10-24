@@ -1,0 +1,145 @@
+.header {
+  width: 15rem;
+  height: 1.72rem;
+  background-color: #07771c;
+  position: relative;
+}
+.header a:first-child {
+  color: #ffffff;
+  display: inline-block;
+  height: 1.72rem;
+  font-size: 1.2rem;
+  left: 0.4rem;
+  position: absolute;
+}
+.header h3 {
+  font-size: 0.8rem;
+  color: #ffffff;
+  width: 4.2rem;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 1.72rem;
+}
+.header a:last-child {
+  position: absolute;
+  font-size: 0.72rem;
+  color: #ffffff;
+  right: 0.4rem;
+  top: 0.4rem;
+}
+.middle {
+  padding: 1.8rem 0.4rem 7rem 0.4rem;
+  font-size: 0;
+}
+.middle form .wrap label {
+  display: inline-block;
+  width: 3.24rem;
+  font-size: 0.72rem;
+  color: #333333;
+}
+.middle form .wrap input {
+  width: 10.8rem;
+  height: 1.52rem;
+  font-size: 0.72rem;
+  color: #333333;
+  text-indent: 0.4rem;
+  border: 0.02rem solid #dedada;
+}
+.middle form .wrap p {
+  font-size: 0.48rem;
+  color: #ff0000;
+  text-indent: 3.2rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.middle form .validate_wrap {
+  position: relative;
+}
+.middle form .validate_wrap label {
+  display: inline-block;
+  width: 3.24rem;
+  font-size: 0.72rem;
+  color: #333333;
+}
+.middle form .validate_wrap input {
+  width: 6.4rem;
+  height: 1.52rem;
+  font-size: 0.72rem;
+  color: #333333;
+  text-indent: 0.4rem;
+  border: 0.02rem solid #dedada;
+}
+.middle form .validate_wrap i {
+  font-size: 0.48rem;
+  position: absolute;
+  top: 0.46rem;
+  left: 8.92rem;
+  font-style: normal;
+}
+.middle form .validate_wrap i.correct {
+  color: #008000;
+}
+.middle form .validate_wrap i.err {
+  color: #ff0000;
+}
+.middle form .validate_wrap span {
+  display: inline-block;
+  width: 4rem;
+  height: 1.52rem;
+  border: 0.02rem solid #dedada;
+  margin-left: 0.4rem;
+  vertical-align: top;
+}
+.middle form .subscribe {
+  font-size: 0.48rem;
+  color: #666666;
+  margin-top: 1rem;
+  padding-left: 2.8rem;
+  position: relative;
+}
+.middle form .subscribe input {
+  opacity: 0;
+  margin-right: 0.2rem;
+  position: relative;
+  z-index: 10;
+  width: 0.36rem;
+  height: 0.32rem;
+}
+.middle form .subscribe input:checked + i b {
+  opacity: 1;
+}
+.middle form .subscribe i {
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.32rem;
+  border: 0.02rem solid #07771c;
+  position: absolute;
+  top: 0.16rem;
+  left: 3rem;
+}
+.middle form .subscribe i b {
+  position: absolute;
+  top: -0.1rem;
+  left: 0rem;
+  font-style: normal;
+  color: #07771c;
+  font-size: 0.4rem;
+  opacity: 0;
+}
+.middle form .subscribe span {
+  margin-left: 0.12rem;
+  display: inline-block;
+  width: 10.6rem;
+}
+.middle form .subscribe span a {
+  color: #07771c;
+}
+.middle form button {
+  width: 100%;
+  height: 1.72rem;
+  background-color: #07771c;
+  margin-top: 1rem;
+  font-size: 0.68rem;
+  color: #ffffff;
+  line-height: 1.72rem;
+}

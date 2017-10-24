@@ -1,0 +1,125 @@
+@import "_function";
+.header{
+  .w(750);
+  .h(86);
+  .b-g-c(#07771c);
+  position: relative;
+  a{
+    .c(#fff);
+    .dis-ib;
+    .h(86);
+    .f-s(60);
+    .l(20);
+    position: absolute;
+  }
+  h3{
+    .f-s(40);
+    .c(#fff);
+    .w(210);
+    .f-w-n;
+    .m-a;
+    .l-h(86);
+  }
+  .toggle_menu{
+    position: absolute;
+    .r(20);
+    .t(20);
+    .w(64);
+    .h(10);
+    content: "";
+    .b-g-c(#fff);
+    box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+  }
+}
+.middle{
+  width: 100%;
+  .pay_success{
+    .t-a-c;
+    .p(90,0,30,0);
+    img{
+      .w(299);
+      .h(301);
+    }
+    h4{
+      .f-s(56);
+      .c(#28c54d);
+      .f-w-n;
+      .m-t(10);
+    }
+  }
+  .relative_goods{
+    .p(0,20,40,20);
+    h5{
+      .f-s(36);
+      .c(#333);
+      .f-w-n;
+      .l-h(68);
+      .b-b(2,dashed,#dedede);
+      .m-b(36);
+      img{
+        .w(33);
+        .h(28);
+      }
+    }
+    .pro_list{
+      display: flex;
+      justify-content: space-between;
+      .t-a-c;
+      li{
+        >a {
+          .b(1,solid,#dedede);
+          .dis-b;
+          .w(340);
+          .h(338);
+          img{
+            .w(220);
+            .h(220);
+            .m-t(50);
+          }
+        }
+        .price_tag{
+          .t-a-l;
+          .f-s(16);
+          .c(#07771c);
+          span{
+            .f-s(26);
+          }
+        }
+        h6{
+          .t-a-l;
+          a{
+            .f-s(24);
+            .c(#333);
+            .f-w-n;
+            overflow : hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+        }
+      }
+    }
+  }
+}
+.footer{
+  width: 100%;
+  div{
+    width: 100%;
+    .h(98);
+    display: flex;
+    justify-content: space-between;
+    .l-h(98);
+    .t-a-c;
+    button{
+      width: 50%;
+      height: 100%;
+      .b-g-c(#07771c);
+      .f-s(36);
+      .c(#fff);
+      &:first-child{
+        .b-g-c(#5eb584);
+      }
+    }
+  }
+}

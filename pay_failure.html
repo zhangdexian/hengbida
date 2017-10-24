@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="#"/><!--网页的关键字-->
+    <meta name="description" content="#"/><!--网页描述-->
+    <meta name="author" content="多迪"/><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>支付失败</title>
+    <base target="_self"><!--覆盖当前页-->
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/public.css" /><!--公共样式-->
+    <link rel="stylesheet" href="css/pay_failure.css" /><!--自身样式-->
+</head>
+<body>
+<div class="header">
+    <a href="javascript:;">&lt;</a>
+    <h3>支付失败</h3>
+    <div class="toggle_menu"></div>
+</div>
+<div class="middle">
+    <img src="img/pay_failure.png" alt="">
+    <h4>支付失败</h4>
+</div>
+<div class="footer">
+    <h5>支付方式</h5>
+    <ul class="payment">
+        <li class="current">
+            <label><img src="img/pay06.png" alt=""><span>银行卡支付</span><input type="radio" name="payment" value="bank_card" checked><i><b>√</b></i></label>
+        </li>
+        <li>
+            <label><img src="img/pay01.png" alt=""><span>银行卡支付</span><input type="radio" name="payment" value="bank_card" checked><i><b>√</b></i></label>
+        </li>
+        <li>
+            <label><img src="img/pay02.png" alt=""><span>微信支付</span><input type="radio" name="payment" value="wechat"><i><b>√</b></i></label>
+        </li>
+        <li>
+            <label><img src="img/pay05.png" alt=""><span>微信支付</span><input type="radio" name="payment" value="wechat"><i><b>√</b></i></label>
+        </li>
+        <li>
+            <label><img src="img/pay03.png" alt=""><span>支付宝支付</span><input type="radio" name="payment" value="alipay"><i><b>√</b></i></label>
+        </li>
+        <li>
+            <label><img src="img/pay04.png" alt=""><span>支付宝支付</span><input type="radio" name="payment" value="alipay"><i><b>√</b></i></label>
+        </li>
+    </ul>
+    <div>
+        <button>订单详情</button>
+        <button>重新支付</button>
+    </div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

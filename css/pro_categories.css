@@ -1,0 +1,105 @@
+.header {
+  width: 14.2rem;
+  height: 0.96rem;
+  background-color: #07771c;
+  overflow: hidden;
+  padding: .4rem;
+}
+.header .scan_icon {
+  float: left;
+  margin-right: 1.32rem;
+}
+.header .scan_icon img {
+  width: 1.22rem;
+  height: 1.12rem;
+  float: left;
+}
+.header .search {
+  float: left;
+  width: 7.6rem;
+  height: 0.96rem;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 .4rem;
+  border: 0.02rem solid #cccccc;
+}
+.header .search input {
+  height: 0.64rem;
+  width: 6.6rem;
+  vertical-align: .44rem;
+  border: none;
+  font-size: 0.48rem;
+  color: 333;
+  outline: none;
+}
+.header .search img {
+  width: 0.54rem;
+  height: 0.56rem;
+  vertical-align: .3rem;
+}
+.header .toggle_menu {
+  float: right;
+  width: 1.28rem;
+  height: 0.2rem;
+  content: "";
+  background-color: #ffffff;
+  box-shadow: 0 .34rem 0 0 #fff,0 .68rem 0 0 #fff;
+}
+.middle {
+  width: 15rem;
+  overflow: hidden;
+}
+.middle .side_nav {
+  float: left;
+  width: 2.32rem;
+  padding: 0rem 0.36rem 0rem 0.36rem;
+  font-size: 0.56rem;
+  color: #333333;
+  padding-top: 1.32rem;
+}
+.middle .side_nav li {
+  margin-bottom: 2.28rem;
+  line-height: 1.28rem;
+}
+.middle .side_nav li.current {
+  color: #07771c;
+  border-bottom: 0.04rem solid #07771c;
+}
+.middle .content {
+  padding: 0.24rem 0.4rem 0rem 0.28rem;
+  background-color: #ece7e7;
+  float: right;
+  text-align: center;
+  width: 11.28rem;
+}
+.middle .content .top_img img {
+  width: 11.14rem;
+  height: 3.76rem;
+  display: block;
+}
+.middle .content .brand_wrap h5 {
+  font-size: 0.56rem;
+  color: #333333;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1.64rem;
+}
+.middle .content .brand_wrap .pro_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.middle .content .brand_wrap .pro_list li {
+  width: 5.36rem;
+  margin-bottom: 0.6rem;
+}
+.middle .content .brand_wrap .pro_list li a img {
+  width: 5.36rem;
+  height: 5.36rem;
+}
+.middle .content .brand_wrap .pro_list li h6 a {
+  font-size: 0.56rem;
+  color: #666666;
+  font-weight: normal;
+}

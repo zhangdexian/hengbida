@@ -1,0 +1,151 @@
+@import "_function";
+.header{
+  .w(750);
+  .h(86);
+  .b-g-c(#07771c);
+  position: relative;
+  a:first-child{
+    .c(#fff);
+    .dis-ib;
+    .h(86);
+    .f-s(60);
+    .l(20);
+    position: absolute;
+  }
+  h3{
+    .f-s(40);
+    .c(#fff);
+    .w(210);
+    .f-w-n;
+    .m-a;
+    .l-h(86);
+  }
+  a:last-child{
+    position: absolute;
+    .f-s(36);
+    .c(#fff);
+    .r(20);
+    .t(20);
+  }
+}
+.middle{
+  .p(90,20,350,20);
+  .f-s-0;
+  form{
+    .wrap{
+      label{
+        .dis-ib;
+        .w(162);
+        .f-s(36);
+        .c(#333);
+    }
+      input{
+        .w(540);
+        .h(76);
+        .f-s(36);
+        .c(#333);
+        .t-i(20);
+        .b(1,solid,#dedada)
+      }
+      p{
+        .f-s(24);
+        .c(red);
+        .t-i(160);
+        .h(40);
+        .l-h(40);
+      }
+    }
+    .validate_wrap{
+      position: relative;
+      label{
+        .dis-ib;
+        .w(162);
+        .f-s(36);
+        .c(#333);
+      }
+      input{
+        .w(320);
+        .h(76);
+        .f-s(36);
+        .c(#333);
+        .t-i(20);
+        .b(1,solid,#dedada)
+      }
+      i{
+        .f-s(24);
+        position: absolute;
+        .t(23);
+        .l(446);
+        font-style: normal;
+        &.correct{
+          .c(green);
+        }
+        &.err{
+          .c(red);
+        }
+      }
+      span{
+        .dis-ib;
+        .w(200);
+        .h(76);
+        .b(1,solid,#dedada);
+        .m-l(20);
+        vertical-align: top;
+      }
+    }
+    .subscribe{
+      .f-s(24);
+      .c(#666);
+      .m-t(50);
+      .p-l(140);
+      position: relative;
+      input{
+        opacity: 0;
+        .m-r(10);
+        position: relative;
+        z-index: 10;
+        .w(18);
+        .h(16);
+        &:checked +i b{
+          opacity: 1;
+        }
+      }
+      i{
+        display: inline-block;
+        .w(16);
+        .h(16);
+        .b(1,solid,#07771c);
+        position: absolute;
+        .t(8);
+        .l(150);
+        b{
+          position: absolute;
+          .t(-5);
+          .l(0);
+          font-style: normal;
+          .c(#07771c);
+          .f-s(20);
+          opacity: 0;
+        }
+      }
+      span{
+        .m-l(6);
+        .dis-ib;
+        .w(530);
+        a{
+          .c(#07771c);
+        }
+      }
+
+    }
+    button{
+      width: 100%;
+      .h(86);
+      .b-g-c(#07771c);
+      .m-t(50);
+      .f-s(34);
+      .c(#fff);
+      .l-h(86);
+    }
+  }
+}
